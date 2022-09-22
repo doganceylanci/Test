@@ -9,7 +9,7 @@ dizel = list()
 lpg = list()
 url = "https://www.petrolofisi.com.tr/akaryakit-fiyatlari"
 params = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-def fiyatOgren():
+def fiyatlar():
     with r.session() as s:
         page=s.get(url, params=params)
         soup=bs(page.content, "html.parser")
