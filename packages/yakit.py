@@ -41,4 +41,4 @@ def fiyatlar():
         df = pd.DataFrame({"Şehir":citys, "Benzin":benzin, "Dizel":dizel, "LPG":lpg})
         print(df)
     
-fiyatOgren()
+fiyatlar()
