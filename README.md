@@ -1,1 +1,3 @@
-Merhaba bu bir test reposudur git kullanımını öğrenemek için yapıyorum
+**$$
+piyasadan güncel birçok fiyatı terminalinizden takip edebileceğiniz uygulamam geliştirme aşamasındadır
+$$ **
